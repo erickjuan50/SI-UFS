@@ -1,6 +1,6 @@
-public class entradasOA {
+public class EntradasO {
     public static void main(String[] args){
-        operacoes_aritmeticas entradasOA = new operacoes_aritmeticas();
+        OperacoesAritmeticas entradasOA = new OperacoesAritmeticas();
         entradasOA.numero1 = 1;
         entradasOA.numero2 = 3;
         entradasOA.soma();
