@@ -5,9 +5,9 @@ public class Venda {
     
 
     public static void main(String[] args){
-        Produto produto1 = new Produto("1", "Vassoura", 5,"R$10,00");
-        Produto produto2 = new Produto("2", "Pá de lixo", 3,"R$15,00");
-        Produto produto3 = new Produto("3", "Sacola de lixo", 100,"R$0,10");
+        Produto produto1 = new Produto("1", "Vassoura", 5, 10.00);
+        Produto produto2 = new Produto("2", "Pá de lixo", 3, 15.00);
+        Produto produto3 = new Produto("3", "Sacola de lixo", 100, 0.10);
 
         System.out.println("Restam " + produto1.getQuantidade() + " unidades de " + produto1.getNome());
         System.out.println("Restam " + produto2.getQuantidade() + " unidades de " + produto2.getNome());
@@ -21,6 +21,9 @@ public class Venda {
 
         System.out.println("Restam " + produto1.getQuantidade() + " unidades de " + produto1.getNome());
         System.out.println("Restam " + produto2.getQuantidade() + " unidades de " + produto2.getNome());
+
+        item1.imprimir();
+        item2.imprimir();
 
     }
 }

@@ -28,4 +28,10 @@ public void setQuantiaVendida(int quantiaVendida) {
 public void vender(){
     this.produto.setQuantidade(this.produto.getQuantidade() - quantiaVendida);
 }
+public void imprimir(){
+    System.out.println("Item vendido: " + produto.getNome());
+    System.out.println("Quantidade vendida: " + quantiaVendida);
+    System.out.println("Valor unitário: " + produto.getPreco());
+    System.out.println("Total pago:" + (produto.getPreco() * quantiaVendida));
+}
 }
