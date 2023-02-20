@@ -1,3 +1,4 @@
+package POO;
 import java.util.Set;
 
 public class Produto2 {

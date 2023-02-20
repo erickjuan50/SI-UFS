@@ -1,3 +1,4 @@
+package POO;
 public class AppVendas {
     public static void main(String[] args) {
         Produto2 produto1 = new Produto2("Chocolate", 2.50, 7.50);

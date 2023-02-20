@@ -1,3 +1,4 @@
+package POO;
 public class EntradasO {
     public static void main(String[] args){
         OperacoesAritmeticas entradasOA = new OperacoesAritmeticas();

@@ -1,3 +1,4 @@
+package POO;
 public class OperacoesAritmeticas {
     public int numero1;
     public int numero2;

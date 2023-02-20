@@ -1,3 +1,4 @@
+package POO;
 public class Venda {   
     public void statusVenda(){
         

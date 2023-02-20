@@ -1,3 +1,4 @@
+package POO;
 public class Funcionario {
     private String nome;
     private String sexo;

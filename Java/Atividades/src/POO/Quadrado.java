@@ -1,3 +1,4 @@
+package POO;
 public class Quadrado {
     
     private double lado;

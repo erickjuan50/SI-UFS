@@ -1,3 +1,4 @@
+package POO;
 public class Produto {
     private String codigo;
     private String nome;
