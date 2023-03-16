@@ -27,19 +27,13 @@ public void setCodigo(String novoCodigo){
 public void setVetor(Aluno[] novoVetor){
     this.vetor = novoVetor;
 }
-public class AlunoNaoEncontradoException extends Exception {
-    public AlunoNaoEncontradoException(String mensagem) {
-        super(mensagem);
-    }
-}
 
-public Aluno procurarAluno(String matricula) throws AlunoNaoEncontradoException{
-
+public Aluno procurarAluno(String matricula){
     for(int i=0;i<10;i++){
-        if(this.vetor[i].getMatricula() == matricula){
-            return this.vetor[i];
-        }   
+    if(this.vetor[i].getMatricula() == matricula){
+        return this.vetor[i];
     }
-    throw new AlunoNaoEncontradoException("Não existe nenhum aluno com essa matricula.");
+    }
+    return null;
 }
 }
