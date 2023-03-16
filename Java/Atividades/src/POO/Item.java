@@ -3,7 +3,10 @@ public class Item {
     private String codigo;
     private Produto produto;
     private int quantiaVendida;
-public Item(String codigo, Produto produto, int quantiaVendida){
+
+    public Item(){}
+
+    public Item(String codigo, Produto produto, int quantiaVendida){
     this.codigo = codigo;
     this.produto = produto;
     this.quantiaVendida = quantiaVendida;
@@ -17,8 +20,8 @@ public Produto getProduto() {
 public int getQuantiaVendida() {
     return quantiaVendida;
 }
-public void setCodigo(String codigo) {
-    this.codigo = codigo;
+public void setCodigo(String novoCodigo) {
+    this.codigo = novoCodigo;
 }
 public void setProduto(Produto produto) {
     this.produto = produto;

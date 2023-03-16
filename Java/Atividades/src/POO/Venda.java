@@ -1,4 +1,5 @@
 package POO;
+import java.util.Scanner;
 public class Venda {   
     public void statusVenda(){
         
@@ -14,7 +15,7 @@ public class Venda {
         System.out.println("Restam " + produto2.getQuantidade() + " unidades de " + produto2.getNome());
         System.out.println("Restam " + produto3.getQuantidade() + " unidades de " + produto3.getNome());
 
-        Item item1 = new Item("1", produto1, 2);
+        Item item1 = new Item("1", produto1, 3);
         Item item2 = new Item("2", produto2, 4);
 
         item1.vender();
@@ -25,6 +26,25 @@ public class Venda {
 
         item1.imprimir();
         item2.imprimir();
-
+        System.out.println("Existem: " + Produto.getContadorDeObjetos() + " Produtos cadastrados.");
+    System.out.println();
+    Scanner input = new Scanner(System.in);
+    int numero = input.nextInt();
+    int contador = 0;
+    for(int i=1;i<=numero;i++){
+        if(numero%i == 0){
+            contador++;
+        }
+    }
+    if(contador==2){
+        System.out.println("numero " + numero + " é primo.");
+    }
+    else
+        System.out.println("numero " + numero + " não é primo.");
+    
+    
     }
 }
+
+
+

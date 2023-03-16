@@ -4,11 +4,18 @@ public class Produto {
     private String nome;
     private int quantidade;
     private double preco;
+    private static int contadorDeObjetos = 0;
 
+    
     public Produto(String codigo, String nome, int quantidade, double preco){
+        contadorDeObjetos++;
         this.codigo = codigo;
         this.nome = nome;
-        this.quantidade = quantidade;
+        if(quantidade <0){
+            this.quantidade = 0;
+        }
+        else
+            this.quantidade = quantidade;
         this.preco = preco;
     }
 
@@ -23,6 +30,9 @@ public class Produto {
     }
     public double getPreco() {
         return preco;
+    }
+    public static int getContadorDeObjetos() {
+        return contadorDeObjetos;
     }
     public void setCodigo(String codigo) {
         this.codigo = codigo;
