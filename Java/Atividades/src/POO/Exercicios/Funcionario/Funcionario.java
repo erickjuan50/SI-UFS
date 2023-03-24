@@ -1,4 +1,4 @@
-package POO;
+package POO.Exercicios.Funcionario;
 public class Funcionario {
     private String nome;
     private String sexo;

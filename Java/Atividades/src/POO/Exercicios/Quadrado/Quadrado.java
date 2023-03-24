@@ -1,4 +1,4 @@
-package POO;
+package POO.Exercicios.Quadrado;
 public class Quadrado {
     
     private double lado;

@@ -1,4 +1,4 @@
-package POO;
+package POO.Exercicios.Quadrado;
 import java.util.Set;
 
 public class AppQuadrado{

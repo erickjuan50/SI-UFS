@@ -1,4 +1,5 @@
-package POO;
+package POO.Exercicios.Produto1;
+
 public class Item {
     private String codigo;
     private Produto produto;

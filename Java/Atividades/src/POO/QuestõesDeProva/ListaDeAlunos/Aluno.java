@@ -1,4 +1,4 @@
-package POO.QuestõesDeProva.Questão1;
+package POO.QuestõesDeProva.ListaDeAlunos;
 /* Crie uma classe Aluno contendo os atributos: Matricula, Nome e duas notas.
 Crie para ela dois construtores: Um com todos os atributos e um sem nenhum atributo.
 Crie todos os metodos Get e Set. 

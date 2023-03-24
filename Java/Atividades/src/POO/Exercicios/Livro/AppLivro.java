@@ -1,4 +1,5 @@
-package POO;
+package POO.Exercicios.Livro;
+
 public class AppLivro {
     public static void main(String[] args){
         Livro livro1 = new Livro("1", "Harry Potter e a Pedra Filosofal", 4);

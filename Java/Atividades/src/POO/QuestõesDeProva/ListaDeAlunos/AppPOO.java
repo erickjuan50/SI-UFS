@@ -1,4 +1,4 @@
-package POO.QuestõesDeProva.Questão1;
+package POO.QuestõesDeProva.ListaDeAlunos;
 
 import java.util.Scanner;
 
@@ -21,7 +21,12 @@ public class AppPOO {
         }
         else
             System.out.println("Erro, não existe aluno com essa matricula");
+    
             
+    String texto = "Braddock e Rambo são meus animais de estimação";
+    String dog2 = texto.substring(11, 15);
+    System.out.println(dog2);
     }
+    
     
 }

@@ -1,14 +1,12 @@
-package POO;
+package POO.Exercicios.Produto1;
 public class Produto {
-    private String codigo;
-    private String nome;
-    private int quantidade;
-    private double preco;
-    private static int contadorDeObjetos = 0;
+    protected String codigo;
+    protected String nome;
+    protected int quantidade;
+    protected double preco;
 
     
     public Produto(String codigo, String nome, int quantidade, double preco){
-        contadorDeObjetos++;
         this.codigo = codigo;
         this.nome = nome;
         if(quantidade <0){
@@ -19,6 +17,9 @@ public class Produto {
         this.preco = preco;
     }
 
+    public void imprimirTeste(){
+        System.out.println("1");
+    }
     public String getCodigo() {
         return codigo;
     }
@@ -30,9 +31,6 @@ public class Produto {
     }
     public double getPreco() {
         return preco;
-    }
-    public static int getContadorDeObjetos() {
-        return contadorDeObjetos;
     }
     public void setCodigo(String codigo) {
         this.codigo = codigo;

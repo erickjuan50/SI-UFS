@@ -1,4 +1,4 @@
-package POO;
+package POO.Exercicios.Produto1;
 import java.util.Scanner;
 public class Venda {   
     public void statusVenda(){
@@ -26,7 +26,7 @@ public class Venda {
 
         item1.imprimir();
         item2.imprimir();
-        System.out.println("Existem: " + Produto.getContadorDeObjetos() + " Produtos cadastrados.");
+        
     System.out.println();
     Scanner input = new Scanner(System.in);
     int numero = input.nextInt();

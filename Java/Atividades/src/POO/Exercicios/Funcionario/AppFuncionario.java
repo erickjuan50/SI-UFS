@@ -1,4 +1,5 @@
-package POO;
+package POO.Exercicios.Funcionario;
+
 public class AppFuncionario {
     public static void main(String[] args) {
         Funcionario funcionario1 = new Funcionario("João Pedro Brandão", "Masculino", "DCOMP", 1800);

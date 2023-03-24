@@ -1,4 +1,5 @@
-package POO;
+package POO.Exercicios.Conta;
+
 public class AppConta {
     public static void main(String[] args) {
         Conta cliente1 = new Conta("João Pedro Brandão", "0409278539427139", 1500, 1200);

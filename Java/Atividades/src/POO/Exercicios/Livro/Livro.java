@@ -1,4 +1,4 @@
-package POO;
+package POO.Exercicios.Livro;
 public class Livro {
     private String codigo;
     private String nome;

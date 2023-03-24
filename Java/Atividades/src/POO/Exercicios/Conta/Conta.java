@@ -1,4 +1,4 @@
-package POO;
+package POO.Exercicios.Conta;
 public class Conta {
     private String nome;
     private String numeroDaConta;

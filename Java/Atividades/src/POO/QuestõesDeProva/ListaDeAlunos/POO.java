@@ -1,4 +1,4 @@
-package POO.QuestõesDeProva.Questão1;
+package POO.QuestõesDeProva.ListaDeAlunos;
 
 /*Crie uma classe chamada "Poo" com dois atributos: Codigo e um vetor de Aluno com 10 elementos. Na classe Poo, alem de todos
 os metodos get e set, crie um metodo chamado procurar aluno: parametro de entrada = matricula, parametro de saida = um objeto do tipo aluno.
